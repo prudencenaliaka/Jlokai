@@ -17,6 +17,28 @@ body{
   text-decoration: none;
   box-sizing: border-box;
 }
+.scroll-up-btn{
+  position: fixed;
+  height: 45px;
+  width:42px;
+  background:#C71585;
+  right: 30px;
+  bottom: 29px;
+  text-align: center;
+  line-height: 45px;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+  color:var(--primary-color);
+  transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+  opacity: 1;
+  pointer-events: none;
+  bottom: 30px;
+}
 .hidden{
   display: none !important;
 }
@@ -215,7 +237,6 @@ margin-top: 8px;
   margin-right: 15px;
 }
 .home-info{
-  min-height: 100vh;
   align-items: center;
   padding-top: 150px;
   color: var(--text-black-900);
@@ -270,7 +291,6 @@ h3.my-profession{
   top: -40px;
 }
 .about{
-  min-height: 100vh;
   align-items: center;
   padding-top: 50px;
   color: var(--text-black-900);
@@ -375,7 +395,6 @@ margin-right: 5px;
   color: var(--text-black-700);
 }
 .services{
-  min-height: 100vh;
   align-items: center;
   padding-top: 50px;
   color: var(--text-black-900);
@@ -431,7 +450,6 @@ text-transform: capitalize;
   padding-right: 25px!important;
 }
 .portfolio{
-  min-height: 100vh;
   align-items: center;
   padding-top: 50px;
   color: var(--text-black-900);
@@ -454,7 +472,6 @@ text-transform: capitalize;
   display: block;
 }
 .contact{
-  min-height: 100vh;
   align-items: center;
   padding-top: 50px;
   color: var(--text-black-900);
