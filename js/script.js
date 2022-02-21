@@ -38,5 +38,5 @@ $(".c").hover(function(){
           $("#Projects").hide();
              $(".services").hide();
               $("#About").hide();
-        })
+})
 })
