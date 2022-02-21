@@ -5,15 +5,17 @@
     <title>LOKAI</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/skins/color-1.css">
+    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   </head>
   <body>
     <!-- ===main container === -->
+    <div class="scroll-up-btn">
+    <i class="fa fa-angle-up"></i>
+    </div>
     <div class="main-container">
-      <div class="scroll-up-btn">
-      <i class="fa fa-angle-up"></i>
-  </div>
+
       <!-- ===home section start=== -->
       <div class="row col-md-12 col-12 col-sm-12" id="Home">
       <div class="col-md-2 col-2 col-sm-2 aside">
@@ -24,11 +26,11 @@
          <span></span>
           </div>
            <ul class="nav">
-             <li><a href="#Home" class="active"><i class="fa fa-home"></i>Home</a></li>
-             <li><a href="#About"><i class="fa fa-user"></i>About</a></li>
-             <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
-             <li><a href="#Projects"><i class="fa fa-briefcase"></i>Projects</a></li>
-             <li><a href="#Contacts"><i class="fa fa-comments"></i>Contact</a></li>
+             <li class="h"><a href="#Home" class="active"><i class="fa fa-home"></i>Home</a></li>
+             <li class="a"><a href="#About"><i class="fa fa-user"></i>About</a></li>
+             <li class="s"><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+             <li class="p"><a href="#Projects"><i class="fa fa-briefcase"></i>Projects</a></li>
+             <li class="c"><a href="#Contacts"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
           <div class="home-info col-md-5 col-5 col-sm-5">
@@ -190,7 +192,7 @@
           </div>
       </section>
       <section class="portfolio section" id="Projects">
-          <div class="row col-md-10 col-10 col-sm-10 pb-5">
+          <div class="row col-md-10 col-10 col-sm-10">
             <div class="section-title padd-15">
               <h2>Projects</h2>
             </div>
@@ -291,5 +293,9 @@
       </div>
       <!-- ===main container end === -->
           <script src="js/script.js"></script>
+          <script src="js/jquery-3.3.1.js"></script>
+          <script type="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   </body>
 </html>

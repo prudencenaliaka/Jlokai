@@ -1,0 +1,42 @@
+$(document).ready(function(){
+  $(".home-info").show();
+  $(".services").hide();
+  $("#About").hide();
+  $("#Projects").hide();
+  $("#Contacts").hide();
+$(".a").hover(function(){
+  $("#About").show();
+  $(".home-info").hide();
+  $(".services").hide();
+  $("#Projects").hide();
+  $("#Contacts").hide();
+  })
+$(".s").hover(function(){
+   $(".services").show();
+    $("#About").hide();
+    $(".home-info").hide();
+    $("#Projects").hide();
+    $("#Contacts").hide();
+  })
+$(".p").hover(function(){
+  $("#Projects").show();
+     $(".services").hide();
+      $("#About").hide();
+      $(".home-info").hide();
+      $("#Contacts").hide();
+    })
+$(".c").hover(function(){
+  $("#Contacts").show();
+      $("#Projects").hide();
+         $(".services").hide();
+          $("#About").hide();
+          $(".home-info").hide();
+    })
+    $(".h").hover(function(){
+     $(".home-info").show();
+      $("#Contacts").hide();
+          $("#Projects").hide();
+             $(".services").hide();
+              $("#About").hide();
+        })
+})
