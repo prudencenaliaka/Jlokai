@@ -32,6 +32,9 @@ $('.scroll-up-btn').addClass("show");
             400:{
                 items:4
             }
+            500:{
+                items:5
+            }
         }
     });
 });
